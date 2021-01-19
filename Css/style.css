@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box !important;
+    -moz-box-sizing: border-box !important;
+    -ms-box-sizing: border-box !important;
+    box-sizing: border-box !important
+}
+main{
+    min-height: 100vh;
+    background: linear-gradient(to right top,#65dfc9, #6cdbeb );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-family: 'Poppins', sans-serif; */
+  
+}
+h1{
+    font-weight: 600;
+    font-weight: 1.8rem;
+ font-family: Arial, Helvetica, sans-serif;
+    color: #426696;
+    opacity: 0.8;
+    font-size: 2rem;
+}
+h2{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #658ec6;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 0.8;
+}
+h3,p{
+    font-weight: 400;
+    font-size: 1rem;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #426696;
+    opacity: 0.8;
+}
+.glass{
+      /* background: white; */
+      /* max-height: 90vh; */
+      min-height: 80vh;
+      width: 60%;
+      background: linear-gradient( to right bottom, rgba(255,255,255,0.7), rgba(255,255,255,0.3)) ;
+      border-radius: 2rem;
+       z-index: 2;
+       backdrop-filter: blur(2rem);
+      
+       display: flex;
+  
+}
+
+.circle1,
+.circle2{
+    /* background-color: white; */
+    background: linear-gradient( to right bottom, rgba(255,255,255,0.8), rgba(255,255,255,0.3));
+border-radius:50% ;
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    
+}
+.circle1{
+    top: 3%;
+    right: 15% ;
+}
+.circle2{
+ bottom: 3%;
+ left: 13%;
+}
+.dp{
+    width: 60px;
+}
+.pic{ width: 59px;
+  
+
+}
+ .oo{
+    width: 59px;
+}
+.dash{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+flex: 1;
+ background: linear-gradient( to right bottom, rgba(255,255,255,0.7), rgba(255,255,255,0.3)) ;
+ border-radius: 2rem;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+  
+    padding: 1rem 3rem;
+}
+.pro{
+    background: linear-gradient(to right top,#65dfc9, #6cdbeb );
+    border-radius: 1rem;
+    color: white;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
+}
+.pro h2{
+    color: white;
+    font-weight: 900;
+}
+
+
+/* games */
+
+.games{
+    flex:5;
+    display: flex; 
+    flex-direction: column;
+  margin: 2rem 2rem 0rem 2rem;
+ 
+  justify-content: space-evenly;
+  align-content: center;
+ 
+    /* padding: 1rem 0 1rem 1rem; */
+    }
+    
+.status{
+    margin-bottom: 2rem;
+}
+.status input{
+    background: linear-gradient( to right bottom, rgba(255,255,255,0.7), rgba(255,255,255,0.3)) ;
+    border: none;
+    padding: 0.3rem;
+    width: 50%;
+  outline: white solid 2px;
+}
+.cards{
+    display: flex;
+    background:linear-gradient(
+        to left top, rgba(255,255,255,0.9),rgba(
+            255,255,255,0.3
+        )
+    ) ;
+    margin: 0rem 0 2rem 0;
+    padding: 1rem;
+    box-shadow: 6px 6px 20px rgba(122,122,122,0.2);
+    border-radius: 1rem;
+    justify-content: space-between;
+   
+}
+.progress{
+    background:  linear-gradient(to right top,#65dfc9, #6cdbeb ); 
+    width: 100%;
+    height: 20px;
+    border-radius:1rem ;
+    position: relative;
+}
+.progress::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(236,236,236);
+    left: 50%;
+    border-radius: 0 1rem 1rem 0;
+}
+.cardinfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.perc{
+font-weight: bold;
+background: linear-gradient(to right top,#65dfc9, #6cdbeb );
+-webkit-background-clip: text;
+-webkit-text-fill-color:transparent;
+}
+ 
